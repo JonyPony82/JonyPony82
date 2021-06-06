@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Search</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" href="image.html">Image Search</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="advanced.html">Advanced Search</a>
+        </li>
+    </ul>
+    <img src="GoogleLogo.png" alt="Google Logo" id="image">
+    <form action="https://google.com/search">
+        <div>
+            <input class="search-input" type="text" name="q">
+        </div>
+        <div class="d-flex justify-content-center">
+            <input class="btn btn-light" type="submit" value="Google Search">
+            <input class="btn btn-light" type="submit" value="I'm Feeling Lucky" name="btnI">
+        </div>
+    </form>
+</body>
+</html>
